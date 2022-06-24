@@ -1,0 +1,11 @@
+<h1> <%= kindOfDay %> </h1>
+    <% for( let index = 0; index < newitems.length; index++ ) { %>
+        <input type="checkbox" name="" id=""><%= newitems[index] %>
+        <br>
+    <% } %>
+    
+    <form action="/" method="post">
+        <input type="text" name="item" id="">
+        <button type="submit">Add</button> 
+    </form>
+    

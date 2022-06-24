@@ -1,0 +1,10 @@
+<h1>Work</h1>
+<% for( let index = 0; index < workitems.length; index++ ) { %>
+    <input type="checkbox" name="" id=""><%= workitems[index] %>
+    <br>
+<% } %>
+
+<form action="/work" method="post">
+    <input type="text" name="witem" id="">
+    <button type="submit">Add</button> 
+</form>
